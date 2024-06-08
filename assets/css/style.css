@@ -18,10 +18,31 @@ body {
 
 /* Header style */
 header {
-    background-color: brown;
+    background-color: #aeabab;
+    padding: 0 1rem;
 }
 h1 {
     font-family: 'Roboto Slab', serif;
+    color: black;
+}
+#nav {
+    text-align: center;
+    background-color: #444;
+    padding: 1px 0;
+    margin: 0 -15px;
+}
+
+#nav li {
+    color: white;
+    padding:  1px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 20px;
+}
+
+#nav li:hover {
+    background-color: #ddd;
+    color: black;
 }
 /* Main */
 main {
