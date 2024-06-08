@@ -20,28 +20,40 @@ body {
 header {
     background-color: #aeabab;
     padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #535353;
+}
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 h1 {
     font-family: 'Roboto Slab', serif;
+    letter-spacing: 4px;
     color: black;
 }
+/* Nav bar */
 #nav {
+    width: 100%;
     text-align: center;
-    background-color: #444;
-    padding: 1px 0;
-    margin: 0 -15px;
+    background-color: #595858;
+    position: fixed;
+    padding-top: 41px;
+    margin: 0;
 }
 
 #nav li {
     color: white;
-    padding:  1px;
+    padding: 0 2px;
     text-decoration: none;
     display: inline-block;
-    margin: 2px 20px;
+    margin: 5px 9px;
 }
 
 #nav li:hover {
-    background-color: #ddd;
+    background-color: #aeabab;
     color: black;
 }
 /* Main */
@@ -49,6 +61,7 @@ main {
     background-color: aquamarine;
     /* Make main element to take all space down to push footer down */
     flex: 1 0 auto;
+    margin-top: 75px;
 }
 /* Footer */
 footer {
