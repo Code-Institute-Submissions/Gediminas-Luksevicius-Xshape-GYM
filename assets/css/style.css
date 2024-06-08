@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    display: block;
+    box-shadow: none;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    font-family: 'Oswald', 'san-serif';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: blue;
+}
+main {
+    display: block;
+    padding-top: 80px;
+}
+/* footer */
+footer {
+    padding: 20px 0;
+}
