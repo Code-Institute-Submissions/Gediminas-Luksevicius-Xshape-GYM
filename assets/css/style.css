@@ -68,7 +68,8 @@ main {
 }
 /* Footer */
 footer {
-    background-color: blueviolet;
+    background-color: #aeabab;
+    display: inline-block;
 }
 /* Media query: Tablets and larger (768 and more) */
 @media screen and (min-width: 768px) {
@@ -78,10 +79,10 @@ footer {
     }
     h1 {
         text-align: center;
-        padding-top: 15px;
         font-family: 'Roboto Slab', serif;
         font-weight: 900;
-        font-style: normal;  
+        font-style: normal;
+        font-size: 280%;  
     }
     #nav {
         padding-top: 70px;
