@@ -67,9 +67,18 @@ main {
     margin-top: 75px;
 }
 /* Footer */
-footer {
+#social {
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
     background-color: #aeabab;
-    display: inline-block;
+}
+#social i {
+    font-size: 200%;
+    padding: 6%;
+    color: black;
 }
 /* Media query: Tablets and larger (768 and more) */
 @media screen and (min-width: 768px) {
