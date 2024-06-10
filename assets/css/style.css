@@ -76,12 +76,34 @@ main {
 }
 #inside-text {
     background-color: #fbcc66b3;
-    font-size: 100%;
-    position:fixed;
+    font-size: 80%;
+    position: absolute;
     /*bottom: 50px;*/
-    width: 50%;
-    left: 40%;
+    width: 65%;
+    left: 27%;
     top: 15%;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+#inside-2 {
+    width: 100%;
+    height: 500px;
+    background-color: antiquewhite;
+}
+#imige {
+    width: 50%;
+    height: 50%;
+    background: url("../images/body_builder.jpeg") no-repeat center center / cover;
+    position: relative;
+}
+#inside-text2 {
+    background-color: #595858;
+    font-size: 80%;
+    position: absolute;
+    width: 65%;
+    left: 10%;
+    top: 100%;
     min-height: 100px;
     padding-top: 20px;
     padding-left: 30px;
