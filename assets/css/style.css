@@ -80,7 +80,7 @@ main {
     position: relative;
     /* bottom: 50px; */
     width: 270px;
-    left: 25%;
+    left: 15%;
     top: 5%;
     min-height: 100px;
     padding-top: 5px;
@@ -107,16 +107,9 @@ main {
     background: url("../images/body_builder.jpeg") no-repeat center center / cover;
     position: relative;
 }
-#inside-text2 {
-    background-color: #595858;
-    font-size: 80%;
-    position: absolute;
-    width: 65%;
-    left: 10%;
-    top: 100%;
-    min-height: 100px;
-    padding-top: 20px;
-    padding-left: 30px;
+#motivation {
+    text-align: center;
+    
 }
 /* Footer */
 #social {
