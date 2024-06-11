@@ -138,23 +138,26 @@ main {
 #gallery {
     text-align: center;
     padding: 2rem 1rem;
+    background-color: #3B666A;
 }
 
 #gallery h2 {
-    margin-bottom: 2rem;
+    margin-top: 0.7rem;
+    color: antiquewhite;
+    background-color: #3B666A;
 }
 
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
+    gap: 0;
 }
 
 .gallery-grid img {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 8px;
+    border-radius: 2px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 /* Footer */
@@ -210,6 +213,12 @@ main {
         background-color: #6A3F3B;
         position: absolute;
         border-radius: 5px;
+    }
+    /*Gallery*/
+    #gallery h2 {
+        margin-top: 0;
+        color: antiquewhite;
+        background-color: #3B666A;
     }      
 }
 /* Media query: devices(with mouse) and large (992px and up) */
