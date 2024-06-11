@@ -77,10 +77,10 @@ main {
 #inside-text {
     background-color: #fbcc66b3;
     font-size: 80%;
-    position: absolute;
+    position: relative;
     /* bottom: 50px; */
-    width: 83%;
-    left: 15%;
+    width: 270px;
+    left: 25%;
     top: 5%;
     min-height: 100px;
     padding-top: 5px;
@@ -93,12 +93,13 @@ main {
 }
 #first-day {
     position: relative;
-    width: 50%;
+    width: 200px;
     height: 33px;
     background-color: #66f1fb;
-    top: 380px;
+    top: 260px;
     left: 20px;
     text-align: center;
+    font-size: 90%;
 }
 #imige {
     width: 50%;
@@ -146,5 +147,32 @@ main {
     }
     main {
         margin-top: 103px;
+    }
+    #inside-text {
+        background-color: #fbcc66b3;
+        font-size: 80%;
+        position: relative;
+        /* bottom: 50px; */
+        width: 270px;
+        left: 60%;
+        top: 5%;
+        min-height: 100px;
+        padding-top: 5px;
+        padding-left: 10px;
     }      
+}
+/* Media query: devices(with mouse) and large (992px and up) */
+@media  screen and (min-width: 992px) {
+    #inside-text {
+        background-color: #fbcc66b3;
+        font-size: 80%;
+        position: relative;
+        /* bottom: 50px; */
+        width: 270px;
+        left: 60%;
+        top: 5%;
+        min-height: 100px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
 }
