@@ -32,7 +32,34 @@
         </nav>
     </header>
     <!-- Main created -->
-    <main>Sign Up</main>
+    <main>
+        <form action="">
+            <h2>Sign Up for membership!</h2>
+            <hr>
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first_name" id="first-name" class="text-input" required>
+            <br>
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last_name" id="last-name" class="text-input" required>
+            <br>
+            <label for="email-address">Email Address:</label>
+            <input type="email" name="email_address" id="email-address" class="text-input" required>
+            <br>
+            <div class="radio-buttons">
+                <label for="singl-sesion">Single Sesion</label>
+                <input type="radio" name="single_sesion" id="single-sesion" value="singl-sesion" required checked>
+            </div>
+            <div class="radio-button">
+                <label for="monthly">Monthly Membership</label>
+                <input type="radio" name="monthly_membership" id="monthly" value="monthly-membership" required>
+            </div>
+            <div class="radio-button">
+                <label for="annual">Annual Membership</label>
+                <input type="radio" name="annual_membership" id="annual" val="annual-membership" required>
+            </div>
+            <button type="submit" class="signup-button">SignUp</button>
+        </form>
+    </main>
     <!-- Footer created -->
     <footer>
         <ul id="social">
