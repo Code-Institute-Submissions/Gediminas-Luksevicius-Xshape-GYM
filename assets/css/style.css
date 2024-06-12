@@ -160,6 +160,36 @@ main {
     border-radius: 2px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+#signup {
+    background-image: url("../images/signup_image.jpeg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 30px 5% 0 5%;
+    flex-grow: 2;
+}
+#signup-form > h2 {
+    background-color: rgb(17 59 120 / 37%);
+    color: #ebebe9;
+    padding-left: 10px;
+}
+#signup-form {
+    padding: 10px;
+    background-color: rgba(140, 193, 237, 0.792);
+    border-radius: 1px;
+}
+.radio-buttons {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.signup-button {
+    border-radius: 2px;
+    background-color: #2e8263;
+    color: #ebebe9;
+    font-size: 130%;
+    margin-top: 20px;
+    padding: 15px 30px;
+}
 /* Footer */
 #social {
     text-align: center;
