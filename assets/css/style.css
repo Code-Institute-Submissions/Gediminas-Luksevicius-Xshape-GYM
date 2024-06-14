@@ -196,10 +196,27 @@ main {
 }
 /* Opening time */
 #opening-time {
+    color: white;
     text-align: center;
     width: 50%;
     height: 150px;
-    background-color: #2e8263;
+    background-color: #535353;
+    border: 0.5px spolid;
+}
+.text-center {
+    text-align: center;
+}
+/* Contacts */
+#contacts {
+    color: white;
+    position: absolute;
+    background-color: #535353;
+    text-align: center;
+    width: 50%;
+    height: 150px;
+    left: 50%;
+    bottom: 0;
+    border: 0.5px solid;
 }
 /* Media query: Tablets and larger (768 and more) */
 @media screen and (min-width: 768px) {
