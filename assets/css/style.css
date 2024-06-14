@@ -124,6 +124,19 @@ main {
     top: 311px;
     background: url(../images/for_motivation.webp) no-repeat center center / cover;
 }
+/* About Us */
+#about-us {
+    width: 100%;
+    height: 600px;
+    background: url('../images/photo7.webp') no-repeat center center / cover;
+}
+#text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+}
 /* Gallery style */
 * Gallery Section */
 #gallery {
@@ -149,7 +162,8 @@ main {
     height: auto;
     display: block;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+} 
+/* Sign Up */
 #signup {
     background-image: url("../images/signup_image.webp");
     background-size: cover;
