@@ -64,6 +64,7 @@ main {
     /* Make main element to take all space down to push footer down */
     flex: 1 0 auto;
     margin-top: 75px;
+    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -71,7 +72,7 @@ main {
 #inside {
     width: 100%;
     height: 500px;
-    background: url(../images/inside_gym.jpeg) no-repeat center center / cover;
+    background: url(../images/inside_gym.webp) no-repeat center center / cover;
     position: relative;
 }
 #inside-text {
@@ -101,37 +102,27 @@ main {
     text-align: center;
     font-size: 90%;
 }
-#imige {
-    width: 50%;
-    height: 50%;
-    background: url("../images/body_builder.jpeg") no-repeat center center / cover;
-    position: relative;
-}
 #motivation {
+    position: relative;
     background-color: #3B666A;
     width: 100%;
-    height: 630px;
-    position: relative;
+    height: 1020px;
 }
 .motivation {
+    position: absolute;
     text-align: center;
     font-size: 130%;
     color: white;
-    width: 90%;
+    width: 100%;
     height: 310px;
-    top: 10px;
-    left: 18px;
     background-color: #6A3F3B;
-    position: absolute;
-    border-radius: 5px;
 }
 #motiv-img {
-    width: 90%;
-    height: 280px;
     position: absolute;
-    top: 322px;
-    left: 18px;
-    background: url('../images/IMG_4501.jpeg') no-repeat center center / cover;
+    width: 99%;
+    height: 700px;
+    top: 311px;
+    background: url(../images/arm.webp) no-repeat center center / cover;
 }
 /* Gallery style */
 * Gallery Section */
@@ -157,11 +148,10 @@ main {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 2px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 #signup {
-    background-image: url("../images/signup_image.jpeg");
+    background-image: url("../images/signup_image.webp");
     background-size: cover;
     background-position: 75%;
     padding: 30px 5% 0 5%;
@@ -226,45 +216,11 @@ main {
     main {
         margin-top: 103px;
     }
-    #inside-text {
-        background-color: #fbcc66b3;
-        font-size: 80%;
-        position: relative;
-        /* bottom: 50px; */
-        width: 270px;
-        left: 60%;
-        top: 5%;
-        min-height: 100px;
-        padding-top: 5px;
-        padding-left: 10px;
-    }
-    /* motivation text*/
-    .motivation {
-        text-align: center;
-        font-size: 160%;
-        color: white;
-        width: 40%;
-        height: 450px;
-        top: 10px;
-        left: 18px;
-        background-color: #6A3F3B;
-        position: absolute;
-        border-radius: 5px;
-    }
     /*Gallery*/
     #gallery h2 {
         margin-top: 0;
         color: antiquewhite;
         background-color: #3B666A;
-    }
-    /* Motivation image */
-    #motiv-img {
-        width: 55%;
-        height: 450px;
-        position: absolute;
-        top: 11px;
-        left: 335px;
-        background: url(../images/IMG_4501.jpeg) no-repeat center center / cover;
     }
 }
 /* Media query: devices(with mouse) and large (992px and up) */
@@ -280,81 +236,11 @@ main {
         padding-top: 5px;
         padding-left: 10px;
     }
-    #motivation {
-        height: 550px;
-    }
-    /*Motivation text*/
-    .motivation {
-        font-size: 200%;
-        width: 40%;
-        height: 520px;
-        top: 10px;
-        left: 18px;
-    }
-    
-    /* Motivation image */
-    #motiv-img {
-        width: 55%;
-        height: 520px;
-        position: absolute;
-        top: 11px;
-        left: 445px;
-        background: url(../images/IMG_4501.jpeg) no-repeat center center / cover;
-    }
 }
 /* Media query: devices(with mouse) and large (1200px and up) */
 @media  screen and (min-width: 1200px) {
-
-    /* Motivation section */
-    #motivation {
-        width: 100%;
-        height: 830px;
-    }
-
-    /* motivation text*/
-    .motivation {
-        font-size: 290%;
-        width: 40%;
-        height: 800px;
-        top: 10px;
-        left: 18px;
-    }
-
-    /* Motivation image */
-    #motiv-img {
-        width: 55%;
-        height: 800px;
-        top: 11px;
-        left: 530px;
-    }
-
 }
 /* Media query: devices(with mouse) and large (1440px and up) */
 @media  screen and (min-width: 1440px) {
-
-    /* Motivation section */
-    #motivation {
-        background-color: #3B666A;
-        width: 100%;
-        height: 830px;
-        position: relative;
-    }
-
-    /* motivation text*/
-    .motivation {
-        font-size: 290%;
-        width: 40%;
-        height: 800px;
-        top: 10px;
-        left: 18px;
-    }
-
-    /* Motivation image */
-    #motiv-img {
-        width: 55%;
-        height: 800px;
-        top: 11px;
-        left: 1130px;
-    }
 
 }
