@@ -131,7 +131,11 @@ main {
     background: url('../images/photo7.webp') no-repeat center center / cover;
 }
 #text {
+    width: 80%;
+    height: 340px;
+    background-color: rgba(123, 114, 102, 0.737);
     text-align: center;
+    font-size: 120%;
     color: white;
     position: absolute;
     top: 20px;
@@ -213,12 +217,14 @@ main {
     color: white;
     text-align: center;
     width: 50%;
-    height: 150px;
+    height: 200px;
     background-color: #535353;
     border: 0.5px solid;
 }
-.text-center {
+#opening-hours {
+    font-size: 200%;
     text-align: center;
+    padding-top: 30px;
 }
 /* Contacts */
 #contacts {
@@ -227,10 +233,11 @@ main {
     background-color: #535353;
     text-align: center;
     width: 50%;
-    height: 150px;
+    height: 200px;
     left: 50%;
     bottom: 0;
     border: 0.5px solid;
+    font-size: 125%;
 }
 /* Media query: Tablets and larger (768 and more) */
 @media screen and (min-width: 768px) {
