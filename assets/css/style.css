@@ -142,10 +142,9 @@ main {
     left: 35px;
 }
 /* Gallery style */
-* Gallery Section */
 #gallery {
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 0;
     background-color: #3B666A;
 }
 
@@ -263,11 +262,12 @@ main {
         border-radius: 5px;
     }
     /*Gallery*/
-    #gallery h2 {
-        margin-top: 0;
-        color: antiquewhite;
-        background-color: #3B666A;
+    .gallery-grid {
+        display: block;
+        column-count: 2;
+        gap: 0;
     }
+    /* motivation */
     #motivation {
         position: relative;
         background-color: #3B666A;
@@ -312,6 +312,7 @@ main {
         background-color: rgba(140, 193, 237, 0.792);
         border-radius: 5px;
     }
+    /* Gallery */
 }
 /* Media query: devices(with mouse) and large (1200px and up) */
 @media  screen and (min-width: 1200px) {
