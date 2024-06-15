@@ -127,19 +127,19 @@ main {
 /* About Us */
 #about-us {
     width: 100%;
-    height: 600px;
+    height: 750px;
     background: url('../images/photo7.webp') no-repeat center center / cover;
 }
 #text {
     width: 80%;
-    height: 340px;
+    height: 360px;
     background-color: rgba(123, 114, 102, 0.737);
     text-align: center;
     font-size: 120%;
     color: white;
     position: absolute;
-    top: 20px;
-    left: 35px;
+    top: 100px;
+    left: 45px;
 }
 /* Gallery style */
 #gallery {
@@ -267,6 +267,18 @@ main {
     main {
         margin-top: 103px;
     }
+    /* About us */
+    #text {
+        width: 85%;
+        height: 250px;
+        background-color: rgba(123, 114, 102, 0.737);
+        text-align: center;
+        font-size: 120%;
+        color: white;
+        position: absolute;
+        top: 100px;
+        left: 45px;
+    }
     /* Signup form */
     #signup-form {
         width: 50%;
@@ -336,8 +348,17 @@ main {
         background-color: rgba(140, 193, 237, 0.792);
         border-radius: 5px;
     
-}
-/* Media query: devices(with mouse) and large (1440px and up) */
-@media  screen and (min-width: 1440px) {
-
+    }
+/* About us */
+    #text {
+        width: 85%;
+        height: 250px;
+        background-color: rgba(123, 114, 102, 0.737);
+        text-align: center;
+        font-size: 120%;
+        color: white;
+        position: absolute;
+        top: 100px;
+        left: 70px
+    }
 }
