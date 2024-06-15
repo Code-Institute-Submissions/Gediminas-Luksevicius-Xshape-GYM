@@ -183,7 +183,7 @@ main {
 #signup-form {
     padding: 10px;
     background-color: rgba(140, 193, 237, 0.792);
-    border-radius: 1px;
+    border-radius: 5px;
 }
 .radio-buttons {
     width: 60%;
@@ -255,6 +255,13 @@ main {
     main {
         margin-top: 103px;
     }
+    /* Signup form */
+    #signup-form {
+        width: 50%;
+        padding: 10px;
+        background-color: rgba(140, 193, 237, 0.792);
+        border-radius: 5px;
+    }
     /*Gallery*/
     #gallery h2 {
         margin-top: 0;
@@ -298,9 +305,23 @@ main {
         padding-top: 5px;
         padding-left: 10px;
     }
+    /* Signup */
+    #signup-form {
+        width: 40%;
+        padding: 10px;
+        background-color: rgba(140, 193, 237, 0.792);
+        border-radius: 5px;
+    }
 }
 /* Media query: devices(with mouse) and large (1200px and up) */
 @media  screen and (min-width: 1200px) {
+    /* signup */
+    #signup-form {
+        width: 40%;
+        padding: 10px;
+        background-color: rgba(140, 193, 237, 0.792);
+        border-radius: 5px;
+    
 }
 /* Media query: devices(with mouse) and large (1440px and up) */
 @media  screen and (min-width: 1440px) {
