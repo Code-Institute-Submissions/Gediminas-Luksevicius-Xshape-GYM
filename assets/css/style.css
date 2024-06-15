@@ -72,7 +72,7 @@ main {
 #inside {
     width: 100%;
     height: 500px;
-    background: url(../images/inside_gym.webp) no-repeat center center / cover;
+    background: url(../images/inside_gym.jpg) no-repeat center center / cover;
     position: relative;
 }
 #inside-text {
@@ -215,7 +215,7 @@ main {
     width: 50%;
     height: 150px;
     background-color: #535353;
-    border: 0.5px spolid;
+    border: 0.5px solid;
 }
 .text-center {
     text-align: center;
