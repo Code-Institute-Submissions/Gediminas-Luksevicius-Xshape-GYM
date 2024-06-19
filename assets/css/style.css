@@ -59,6 +59,10 @@ h1 {
 #navbar li {
     float: left;
 }
+/* underline under page name shows on what page you are */
+.underline {
+    border-bottom: 4px solid;
+}
 /* Main */
 main {
     /* Make main element to take all space down to push footer down */
