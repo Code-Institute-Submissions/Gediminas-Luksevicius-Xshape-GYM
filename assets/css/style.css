@@ -132,6 +132,7 @@ main {
 #about-us {
     width: 100%;
     height: 750px;
+    position: relative;
     background: url('../images/about_us.jpg') no-repeat center center / cover;
 }
 #text {
