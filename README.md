@@ -8,3 +8,5 @@ Home Page: On home page you can finde name of the gym.Nav bar to orher pages lik
 Gallery: Photo gallery of gym facilities and some exersise in action.
 About Us: Page with some text contest about gym.
 Sign Up: Page with background image of gym facilities and form to sign up for membership.
+## Gallery
+Photos was taken form google just to show the idea what the gallery would be look like.Gallery should contain pictures of some facilities and members doing exercise.
