@@ -110,7 +110,7 @@ main {
     position: relative;
     background-color: #3B666A;
     width: 100%;
-    height: 1020px;
+    height: 620px;
 }
 .motivation {
     position: absolute;
@@ -124,7 +124,7 @@ main {
 #motiv-img {
     position: absolute;
     width: 100%;
-    height: 709px;
+    height: 311px;
     top: 311px;
     background: url(../images/motivation.webp) no-repeat center center / cover;
 }
@@ -319,7 +319,7 @@ main {
     #motiv-img {
         position: absolute;
         width: 50%;
-        height: 310px;
+        height: 375px;
         top: 0;
         left: 50%;
         background: url(../images/motivation.webp) no-repeat center center / cover;
@@ -368,5 +368,16 @@ main {
         position: absolute;
         top: 100px;
         left: 70px
+    }
+    /* Motivtion */
+    #motivation{
+        height: 500px;
+    }
+    .motivation{
+        font-size: 180%;
+        height: 650px;
+    }
+    #motiv-img {
+        height: 620px;
     }
 }
