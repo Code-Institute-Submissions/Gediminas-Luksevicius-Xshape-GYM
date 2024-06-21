@@ -319,7 +319,7 @@ main {
         height: 310px;
         top: 0;
         left: 50%;
-        background: url(../images/for_motivation.webp) no-repeat center center / cover;
+        background: url(../images/motivation.webp) no-repeat center center / cover;
     }
 }
 /* Media query: devices(with mouse) and large (992px and up) */
