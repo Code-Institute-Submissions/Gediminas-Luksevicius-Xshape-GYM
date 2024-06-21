@@ -80,12 +80,12 @@ main {
     position: relative;
 }
 #inside-text {
-    background-color: rgba(255, 205, 96, 0.83);
+    background-color: rgba(255, 205, 96, 0.9);
     font-size: 80%;
     position: relative;
     /* bottom: 50px; */
     width: 270px;
-    left: 15%;
+    left: 5%;
     top: 5%;
     min-height: 100px;
     padding-top: 5px;
@@ -138,7 +138,7 @@ main {
 #text {
     width: 85%;
     height: 390px;
-    background-color: rgba(123, 114, 102, 0.737);
+    background-color: rgba(123, 114, 102, 0.84);
     text-align: center;
     font-size: 120%;
     color: white;
@@ -272,11 +272,14 @@ main {
     main {
         margin-top: 103px;
     }
+    #inside-text {
+        left: 50%;
+    }
     /* About us */
     #text {
         width: 85%;
         height: 250px;
-        background-color: rgba(123, 114, 102, 0.737);
+        background-color: rgba(123, 114, 102, 0.84);
         text-align: center;
         font-size: 120%;
         color: white;
@@ -325,7 +328,7 @@ main {
 /* Media query: devices(with mouse) and large (992px and up) */
 @media  screen and (min-width: 992px) {
     #inside-text {
-        background-color: #fbcc66b3;
+        background-color: rgba(255, 205, 96, 0.9);
         font-size: 80%;
         position: relative;
         width: 270px;
@@ -358,7 +361,7 @@ main {
     #text {
         width: 85%;
         height: 250px;
-        background-color: rgba(123, 114, 102, 0.737);
+        background-color: rgba(123, 114, 102, 0.84);
         text-align: center;
         font-size: 120%;
         color: white;
