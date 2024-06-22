@@ -387,7 +387,7 @@ main {
 /* Media query: devices(with mouse) and large (1400px and up) */
 @media  screen and (min-width: 1400px) {
     #motiv-img {
-        height: 700px;
+        height: 735px;
     }
 
 }
