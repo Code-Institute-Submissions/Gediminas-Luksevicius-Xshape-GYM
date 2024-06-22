@@ -250,7 +250,7 @@ main {
 @media screen and (min-width: 320px) {
     /*Gallery*/
     .gallery-grid {
-        display: block;
+        display: grid;
         column-count: 2;
         gap: 0;
     }

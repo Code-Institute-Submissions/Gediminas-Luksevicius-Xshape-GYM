@@ -29,3 +29,9 @@ Have background image "wrists holding a dumbbell" that shows the strengt.And som
 
 ## Sign Up page
 Have background image of gym facilities.And form to fill out for membership.
+## Gallery
+Contains photos of facilities and members working out.
+## Testing
+Testing HTML with W3C was no errors or warning found.
+Testing CSS with W3C was no errors found.
+Testing was done for all pages and was same result no errors.
