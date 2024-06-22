@@ -44,10 +44,19 @@ Have background image of gym facilities.And form to fill out for membership.
 Contains photos of facilities and members working out.
 ![Gallery](assets/images/gallery.png)
 ## Testing
+
+
+## Validator testing
 Testing HTML with W3C was no errors or warning found.
 Testing CSS with W3C was no errors found.
 Testing was done for all pages and was same result no errors.
 
+## Deployment
+Was folowing instruction.
+The site was deployed to GitHub pages. The steps to deploy was:
+From the GitHub repository, navigate to the Settings tab
+On left side of screen in "code and automation" section pressed option "pages"
+Then cheecked that configuration was set to main and root.
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-[def]: https://ui.dev/amiresponsive?url=https://glk3.github.io/Gediminas-Luksevicius-Xshape-GYM/
-[def2]: ?url=https://glk3.github.io/Gediminas-Luksevicius-Xshape-GYM
+The ling to the deployed page: https://glk3.github.io/Gediminas-Luksevicius-Xshape-GYM/
