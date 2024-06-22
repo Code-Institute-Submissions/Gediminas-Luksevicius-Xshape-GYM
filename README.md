@@ -11,26 +11,38 @@ Gallery: Photo gallery of gym facilities and some exersise in action.
 About Us: Page with some text contest about gym.
 Sign Up: Page with background image of gym facilities and form to sign up for membership.
 
-## The landing page
+## Nav bar
+Gives oportunithy to navigate true diferent pages.White underline shows on what page you are.
+![navbar](assets/images/nav_bar.png)
+
+## The header page
 Contains image with gym facilities.Weights and other equipment.Dumbbells,benches barbell weights.Also have welcome text with some motivation phrases and a little lower text that says that first day is free.Jus to try.
+![Header](assets/images/header_page.png)
 
 ## Motivation
 Have some text with motivation phrases and image with muscular athlet body to show how you can look if you start training.
+![Motivation](assets/images/motivation_section.png)
 
 ## Opening hours and Contacts
 Shows opening days and time.24/7 Open 7 days a week and 24 hours a day.
 Contacts show address and telphone number.
+![Opening](assets/images/opening_times_and_contacts.png)
 
 ## Footer
 Contains links to social media.
+![Footer](assets/images/footer.png)
 
 ## About us page
 Have background image "wrists holding a dumbbell" that shows the strengt.And some text about club.
+![About](assets/images/about_us.png)
 
 ## Sign Up page
 Have background image of gym facilities.And form to fill out for membership.
+![Signup](assets/images/signup.png)
+
 ## Gallery
 Contains photos of facilities and members working out.
+![Gallery](assets/images/gallery.png)
 ## Testing
 Testing HTML with W3C was no errors or warning found.
 Testing CSS with W3C was no errors found.
