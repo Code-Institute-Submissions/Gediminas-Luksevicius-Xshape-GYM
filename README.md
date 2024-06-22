@@ -1,9 +1,9 @@
 # Xshape-GYM
 Welcome to the Xshape-GYM website repository. This project is a comprehensive website for the Xshape-GYM located in Kells, Ireland. It provides information about the gym's facilities, mission, opening hours, and includes a photo gallery.
-Xshape-GYM website is designed to provide current and prospective members with all the necessary information about the gym. It includes an About Us section, opening hours, and a gallery showcasing the gym's facilities.
+Xshape-GYM website is designed to provide current and prospective members with all the necessary information about the gym. It includes an About Us section, opening hours, and a gallery showcasing the gym's facilities.https
 
 ## Preview
-![Xshape-GYM](/assets/images/responsive_image.png)
+![Xshape-GYM](assets/images/responsive_image.png)
 
 ## Features
 Home Page: On home page you can finde name of the gym.Nav bar to orher pages like gallery,about us and sign up.Background image of gym facilities.Motivation section,with motivation phrases and picture.Opening hours and contackts.Footer with links to socialmedia websites.
@@ -35,3 +35,7 @@ Contains photos of facilities and members working out.
 Testing HTML with W3C was no errors or warning found.
 Testing CSS with W3C was no errors found.
 Testing was done for all pages and was same result no errors.
+
+
+[def]: https://ui.dev/amiresponsive?url=https://glk3.github.io/Gediminas-Luksevicius-Xshape-GYM/
+[def2]: ?url=https://glk3.github.io/Gediminas-Luksevicius-Xshape-GYM
