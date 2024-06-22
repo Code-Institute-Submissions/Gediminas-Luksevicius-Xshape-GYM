@@ -124,7 +124,7 @@ main {
 #motiv-img {
     position: absolute;
     width: 100%;
-    height: 335px;
+    height: 310px;
     top: 311px;
     background: url(../images/motivation.webp) no-repeat center center / cover;
 }
@@ -246,8 +246,8 @@ main {
     border: 0.5px solid;
     font-size: 125%;
 }
-/* Media query: Tablets and larger (400 and more) */
-@media screen and (min-width: 400px) {
+/* Media query: Tablets and larger (320 and more) */
+@media screen and (min-width: 320px) {
     /*Gallery*/
     .gallery-grid {
         display: block;
@@ -387,7 +387,7 @@ main {
 /* Media query: devices(with mouse) and large (1400px and up) */
 @media  screen and (min-width: 1400px) {
     #motiv-img {
-        height: 735px;
+        height: 700px;
     }
 
 }
