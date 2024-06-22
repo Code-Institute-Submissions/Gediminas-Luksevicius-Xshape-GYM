@@ -20,7 +20,7 @@ body {
 /* Header style */
 header {
     background-color: #aeabab;
-    position: fixed;
+    /*position: fixed;*/
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #535353;
@@ -67,7 +67,7 @@ h1 {
 main {
     /* Make main element to take all space down to push footer down */
     flex: 1 0 auto;
-    margin-top: 75px;
+    /*margin-top: 75px;*/
     position: relative;
     display: flex;
     flex-direction: column;
@@ -124,7 +124,7 @@ main {
 #motiv-img {
     position: absolute;
     width: 100%;
-    height: 310px;
+    height: 330px;
     top: 311px;
     background: url(../images/motivation.webp) no-repeat center center / cover;
 }
@@ -262,37 +262,19 @@ main {
         height: 70px;
         text-align: center;
     }
-    h1 {
-        text-align: center;
-        font-family: 'Roboto Slab', serif;
-        font-weight: 900;
-        font-style: normal;
-        font-size: 280%;  
-    }
-    main {
-        margin-top: 103px;
-    }
+
     #inside-text {
+        top: 60px;
         left: 50%;
     }
     /* About us */
     #text {
-        width: 85%;
         height: 250px;
-        background-color: rgba(123, 114, 102, 0.84);
-        text-align: center;
-        font-size: 120%;
-        color: white;
-        position: absolute;
-        top: 100px;
         left: 45px;
     }
     /* Signup form */
     #signup-form {
         width: 50%;
-        padding: 10px;
-        background-color: rgba(140, 193, 237, 0.792);
-        border-radius: 5px;
     }
     /*Gallery*/
     .gallery-grid {
@@ -302,74 +284,47 @@ main {
     }
     /* motivation */
     #motivation {
-        position: relative;
-        background-color: #3B666A;
-        width: 100%;
         height: 310px;
     }
     .motivation {
-        position: absolute;
-        text-align: center;
-        font-size: 130%;
-        color: white;
         width: 50%;
-        height: 310px;
-        background-color: #6A3F3B;
     }
     #motiv-img {
-        position: absolute;
         width: 50%;
         height: 375px;
         top: 0;
         left: 50%;
-        background: url(../images/motivation.webp) no-repeat center center / cover;
     }
 }
 /* Media query: devices(with mouse) and large (992px and up) */
 @media  screen and (min-width: 992px) {
     #inside-text {
-        background-color: rgba(255, 205, 96, 0.9);
-        font-size: 80%;
-        position: relative;
-        width: 270px;
-        left: 60%;
-        top: 5%;
-        min-height: 100px;
-        padding-top: 5px;
-        padding-left: 10px;
+        left: 35rem;
+        top: 70px;
+        
     }
     #motiv-img {
-        height: 480px;
+        height: 500px;
     }
     /* Signup */
     #signup-form {
         width: 40%;
-        padding: 10px;
-        background-color: rgba(140, 193, 237, 0.792);
-        border-radius: 5px;
     }
     /* Gallery */
 }
 /* Media query: devices(with mouse) and large (1200px and up) */
 @media  screen and (min-width: 1200px) {
+    /* header */
+    #inside-text {
+        left: 60rem;
+    }
     /* signup */
     #signup-form {
         width: 40%;
-        padding: 10px;
-        background-color: rgba(140, 193, 237, 0.792);
-        border-radius: 5px;
-    
     }
 /* About us */
     #text {
-        width: 85%;
         height: 250px;
-        background-color: rgba(123, 114, 102, 0.84);
-        text-align: center;
-        font-size: 120%;
-        color: white;
-        position: absolute;
-        top: 100px;
         left: 70px
     }
     /* Motivtion */
@@ -386,6 +341,9 @@ main {
 }
 /* Media query: devices(with mouse) and large (1400px and up) */
 @media  screen and (min-width: 1400px) {
+    #inside-text {
+        left: 60rem;
+    }
     #motiv-img {
         height: 700px;
     }
