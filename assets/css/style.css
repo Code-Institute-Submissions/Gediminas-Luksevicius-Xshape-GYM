@@ -255,7 +255,7 @@ main {
         gap: 0;
     }
     #motiv-img {
-        height: 380px;
+        height: 330px;
     }
 
 }
@@ -263,7 +263,7 @@ main {
 @media screen and (min-width: 400px) {
     /* Gallery */
     .gallery-grid {
-        display: grid;
+        display: contents;
         column-count: 1;
         gap: 0;
     }
