@@ -45,6 +45,9 @@ Contains photos of facilities and members working out.
 ![Gallery](assets/images/gallery.png)
 ## Testing
 
+Used google browser preview tool fot testing inspect different sizes screen.
+Used different type of gadgets to check how the web site look in rel life.
+Used google browser tool "Lighthouse" to audit test for  performance,accessability,best practice and SEO.
 
 ## Validator testing
 Testing HTML with W3C was no errors or warning found.
