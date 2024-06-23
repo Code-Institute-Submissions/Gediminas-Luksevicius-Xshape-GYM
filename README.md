@@ -52,11 +52,25 @@ Testing CSS with W3C was no errors found.
 Testing was done for all pages and was same result no errors.
 
 ## Deployment
-Was folowing instruction.
+To deploy projet i was folowing instruction.
 The site was deployed to GitHub pages. The steps to deploy was:
 From the GitHub repository, navigate to the Settings tab
 On left side of screen in "code and automation" section pressed option "pages"
 Then cheecked that configuration was set to main and root.
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The ling to the deployed page: https://glk3.github.io/Gediminas-Luksevicius-Xshape-GYM/
+The link to the deployed page: https://glk3.github.io/Gediminas-Luksevicius-Xshape-GYM/
+
+## Credits
+All code and some text and media is taken from diferent type sources.Some of it created my self after studying Code Institute,W3schools,MDN web docks.About flexbox learned waching videos on Youtube.Searching google for motivating phrases and geting some text from it.Photos for images and gallery taken from goole serch,and just took some photos in local gym.All this content is used just for learning purposes only.
+
+## Content
+
+Front page image was used from my own photo library.Taken in local gym.Motivating phrase taken from googe search.
+Motivation section.Motivating phrses taken from google search and photo of my favorit body builer from google too.
+About us section.Background image taken by me from local gym.Text created my self.Just added adage that i remember long time a go."In healthy body,healthy soul"
+Footer idea taken from Coding institute studying material.Jus added diferent shape icons from [Font Awesome](https://fontawesome.com/).
+
+## Media
+
+All photos taken from google open source pages
