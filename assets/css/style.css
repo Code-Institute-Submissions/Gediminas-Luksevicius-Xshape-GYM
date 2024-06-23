@@ -254,6 +254,9 @@ main {
         column-count: 1;
         gap: 0;
     }
+    #motiv-img {
+        height: 380px;
+    }
 
 }
 /* Media query: Tablets and larger (400 and more) */
