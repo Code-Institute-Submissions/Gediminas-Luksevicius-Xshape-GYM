@@ -263,7 +263,7 @@ main {
 @media screen and (min-width: 400px) {
     /* Gallery */
     .gallery-grid {
-        display: contents;
+        display: block;
         column-count: 1;
         gap: 0;
     }
