@@ -64,6 +64,9 @@ Once the master branch has been selected, the page will be automatically refresh
 
 The link to the deployed page: https://glk3.github.io/Gediminas-Luksevicius-Xshape-GYM/
 
+## Could be added in the future
+Could be added food supplement shop. Customer reviews and suggestions page. And prices for membership.
+
 ## Credits
 All code and some text and media is taken from different type sources.Some of it created my self after studying Code Institute,W3schools,MDN web docks.About flexbox learned watching videos on Youtube.Searching google for motivating phrases and getting some text from it.Photos for images and gallery taken from goole search,and just took some photos in local gym.All this content is used just for learning purposes only.
 
