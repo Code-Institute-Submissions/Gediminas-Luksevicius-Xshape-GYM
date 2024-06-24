@@ -78,5 +78,4 @@ About us section.Background image taken by me from local gym.Text created by my 
 Footer idea taken from Coding institute studying material.Jus added different shape icons from [Font Awesome](https://fontawesome.com/).
 
 ## Media
-
-All photos taken from google open source pages
+All photos taken from google open source pages.And was used just for study purposes.
