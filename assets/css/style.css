@@ -20,7 +20,6 @@ body {
 /* Header style */
 header {
     background-color: #aeabab;
-    /*position: fixed;*/
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #535353;
@@ -67,7 +66,6 @@ h1 {
 main {
     /* Make main element to take all space down to push footer down */
     flex: 1 0 auto;
-    /*margin-top: 75px;*/
     position: relative;
     display: flex;
     flex-direction: column;
@@ -80,10 +78,10 @@ main {
     position: relative;
 }
 #inside-text {
-    background-color: rgba(255, 205, 96, 0.9);
+    color: black;
+    background-color: #e4c581e4;
     font-size: 80%;
     position: relative;
-    /* bottom: 50px; */
     width: 270px;
     left: 10%;
     top: 5%;
@@ -100,7 +98,7 @@ main {
     position: relative;
     width: 200px;
     height: 33px;
-    background-color: #66f1fb;
+    background-color: #81b99a;
     top: 260px;
     left: 20px;
     text-align: center;
@@ -135,10 +133,12 @@ main {
     position: relative;
     background: url('../images/about_us.webp') no-repeat center center / cover;
 }
+
+/* About us text */
 #text {
     width: 85%;
     height: 390px;
-    background-color: rgba(123, 114, 102, 0.84);
+    background-color: #7b7266d5;
     text-align: center;
     font-size: 120%;
     color: white;
