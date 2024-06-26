@@ -244,7 +244,7 @@ main {
     left: 50%;
     bottom: 0;
     border: 0.5px solid;
-    font-size: 125%;
+    font-size: 105%;
 }
 /* Media query: Tablets and larger (320 and more) */
 @media screen and (min-width: 320px) {
