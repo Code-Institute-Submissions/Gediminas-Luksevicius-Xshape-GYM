@@ -174,20 +174,20 @@ main {
 } 
 /* Sign Up */
 #signup {
-    background-image: url("../images/signup_image.webp");
+    background-image: url("../images/signup_image1.webp");
     background-size: cover;
     background-position: 75%;
     padding: 30px 5% 0 5%;
     flex-grow: 2;
 }
 #signup-form > h2 {
-    background-color: rgb(17 59 120 / 37%);
+    background-color: rgb(17 59 120 / 61%);
     color: #ebebe9;
     padding-left: 10px;
 }
 #signup-form {
     padding: 10px;
-    background-color: rgba(140, 193, 237, 0.792);
+    background-color: rgba(140 193 237 / 90%);
     border-radius: 5px;
 }
 .radio-buttons {
@@ -256,7 +256,7 @@ main {
         gap: 0;
     }
     #motiv-img {
-        height: 310px;
+        height: 335px;
     }
 
 }
