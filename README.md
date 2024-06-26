@@ -62,9 +62,9 @@ Xshape-GYM website is designed to provide current and prospective members with a
 * Used different type of gadgets like desktop,ipad,samsung tablet,iphone xs max,iphone se to test website.
 
 ## Validator testing
-Testing HTML with W3C was no errors or warning found.
-Testing CSS with W3C was no errors found.
-Testing was done for all pages and was same result no errors.
+* Was used for HTML [W3C Markup Validtor](https://validator.w3.org/)
+* Was used for CSS [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
 
 ## Deployment
 To deploy project i was following instruction.
