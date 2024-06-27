@@ -155,7 +155,7 @@ main {
 }
 
 #gallery h2 {
-    margin-top: 0.7srem;
+    margin-top: 0.7rem;
     color: antiquewhite;
     background-color: #3B666A;
 }
@@ -317,10 +317,21 @@ main {
 }
 /* Media query: devices(with mouse) and large (992px and up) */
 @media  screen and (min-width: 992px) {
+    /* Inside text */
     #inside-text {
+        width: 340px;
+        height: 160px;
         left: 35rem;
         top: 70px;
-        
+        font-size: 100%; 
+    }
+
+    #first-day {
+        top: 200px;
+        left: 100px;
+        width: 300px;
+        height: 60px;
+        font-size: 150%;
     }
     #motiv-img {
         height: 500px;
@@ -338,8 +349,9 @@ main {
 @media  screen and (min-width: 1200px) {
     /* header */
     #inside-text {
-        left: 60rem;
+        left: 50rem;
     }
+    
     /* signup */
     #signup-form {
         width: 40%;
@@ -364,7 +376,16 @@ main {
 /* Media query: devices(with mouse) and large (1400px and up) */
 @media  screen and (min-width: 1400px) {
     #inside-text {
-        left: 60rem;
+        width: 400px;
+        height: 200px;
+        font-size: 120%;
+    }
+    #first-day {
+        left: 10rem;
+        width: 310px;
+        height: 70px;
+        top: 150px;
+        font-size: 160%;
     }
     #motiv-img {
         height: 700px;
