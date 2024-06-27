@@ -4,8 +4,8 @@ Xshape-GYM website is designed to provide current and prospective members with a
 
 ## Preview
 ![Xshape-GYM](assets/images/responsive_image.png)
-
-[Link to Xshape-GYM page](https://glk3.github.io/Gediminas-Luksevicius-Xshape-GYM/)
+* [link to mockup](https://ui.dev/amiresponsive?url=https://glk3.github.io/Gediminas-Luksevicius-Xshape-GYM/)
+* [Link to Xshape-GYM page](https://glk3.github.io/Gediminas-Luksevicius-Xshape-GYM/)
 
 ## Features
 * This website should atract people whowant to get fit.
@@ -55,6 +55,13 @@ Xshape-GYM website is designed to provide current and prospective members with a
 
 ![Gallery](assets/images/gallery.png)
 
+## Technologies Used
+
+* HTML [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* CSS [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [Mockup picture](https://ui.dev/amiresponsive)
+* Mockup picture for the README.md file.
+
 ## Testing
 
 * Used google browser,safari and microsoft edge to test website.
@@ -65,15 +72,21 @@ Xshape-GYM website is designed to provide current and prospective members with a
 * Was used for HTML [W3C Markup Validtor](https://validator.w3.org/)
 * Was used for CSS [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
+## Dev tool Lighthouse report
+* [Front page](assets/images/main_page_lighthouse.png)
+* [Gallery](assets/images/gallery_lighthouse.png)
+* [Sign-Up](assets/images/signup_lighthouse.png)
+
 
 ## Deployment
-To deploy project i was following instruction.
-The site was deployed to GitHub pages. The steps to deploy was:
-From the GitHub repository, navigate to the Settings tab
-On left side of screen in "code and automation" section pressed option "pages"
-Then checked that configuration was set to main and root.
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
+* Steps to deply are:
+* Locate repository (glk3/Gediminas-Luksevicius-Xshape-GYM) in Github.
+* Open repository and select "settings" on menue.
+* On left handside in "General" menue on "Code and automation"section go to option "Pages".
+* Under "Branch", click the dropdown menu "None" and select "Main" and click "Save".
+* Scroll down the page and check on the right hand side for "Deployments".
+* Click on "Deployments" to see your new website link.
 
 ## Future features
 * Could be added food supplement shop.
@@ -82,14 +95,26 @@ Once the master branch has been selected, the page will be automatically refresh
 * On gallery page could be created  possibility to upload photos with the achieved results.
 
 ## Credits
-All code and some text and media is taken from different type sources.Some of it created my self after studying Code Institute,W3schools,MDN web docks.About flexbox learned watching videos on Youtube.Searching google for motivating phrases and getting some text from it.Photos for images and gallery taken from goole search,and just took some photos in local gym.All this content is used just for learning purposes only.
 
-## Content
+### Code
 
-Front page image was used from my own photo library.Taken in local gym.Motivating phrase taken from google search.
-Motivation section.Motivating phrases taken from google search and photo of my favorite body builder from google too.
-About us section.Background image taken by me from local gym.Text created by my self.Just added adage that i remember long time a go."In healthy body,healthy soul"
-Footer idea taken from Coding institute studying material.Jus added different shape icons from [Font Awesome](https://fontawesome.com/).
+* Lerning HTML element and CSS rules from W3school [W3School](https://www.w3schools.com/html/default.asp)
+* The README.md was provided by Code Institute.[Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME)
 
-## Media
-All photos taken from google open source pages.And was used just for study purposes.
+### Content
+
+* All code created by my self.
+* Footer idea taken from Coding institute studying material.Jus added different shape icons from [Font Awesome](https://fontawesome.com/).
+
+### Media
+* All photos taken from google open source pages.And was used just for study purposes.
+* Front page image was used from my own photo library.Photos taken in local gym.
+* Motivating phrase taken from google search.
+* Motivation section.Motivating phrases taken from google search and photo of my favorite body builder from google too.
+* About us section.Background image taken by me from local gym.Text created by my self.Just added adage that i remember long time a go."In healthy body,healthy soul"
+
+## Acknowledgements
+
+* Code Institute for providing valuable learning material.
+* Mentor Mitko Bachvarov for helpful guidens and valuable information.
+* Cohort Fcilitator for advices,links to studying material and motivation.
