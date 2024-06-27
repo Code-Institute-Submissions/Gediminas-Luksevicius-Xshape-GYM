@@ -55,6 +55,11 @@ Xshape-GYM website is designed to provide current and prospective members with a
 
 ![Gallery](assets/images/gallery.png)
 
+## Sign Up received page
+
+* Used Code Institute tamplate
+![Signup received page](assets/images/signup%20received%20page.png)
+
 ## Technologies Used
 
 * HTML [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -66,11 +71,21 @@ Xshape-GYM website is designed to provide current and prospective members with a
 
 * Used google browser,safari and microsoft edge to test website.
 * Dev tool was used to inspect different screen sizes.
-* Used different type of gadgets like desktop,ipad,samsung tablet,iphone xs max,iphone se to test website.
+* Used different type of gadgets like desktop,ipad,samsung tablet,iphone xs max,iphone se,samsung a10e to test website.
 
 ## Validator testing
 * Was used for HTML [W3C Markup Validtor](https://validator.w3.org/)
+* [W3C Markup validator result](assets/images/html_validator_pass.png)
 * Was used for CSS [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+* [W3C CSS Pass](assets/images/css_validator%20pass.png)
+* Dev Tool Lighthouse mobile mode testing results.
+* [index.html](assets/images/main_page_lighthouse.png)
+* [gallery.html](assets/images/gallery_lighthouse.png)
+* [signup.html](assets/images/signup_lighthouse.png)
+* Dev Tool Lighthouse desctop mode testing results.
+* [index.html](assets/images/main_desktop_lighthouse.png)
+* [gallery.html](assets/images/gallery_desktop_lighhouse.png)
+* [signup.html](assets/images/signup_desktop_lighthouse.png)
 
 ## Dev tool Lighthouse report
 * [Front page](assets/images/main_page_lighthouse.png)
@@ -87,6 +102,10 @@ Xshape-GYM website is designed to provide current and prospective members with a
 * Under "Branch", click the dropdown menu "None" and select "Main" and click "Save".
 * Scroll down the page and check on the right hand side for "Deployments".
 * Click on "Deployments" to see your new website link.
+
+## Bugs
+
+* No bug found.
 
 ## Future features
 * Could be added food supplement shop.
